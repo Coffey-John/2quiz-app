@@ -38,6 +38,10 @@ function checkAnswer() {
 
       const rightAnswer = questions[counter].correctAnswer;
 
+      if (userAnswer === rightAnswer) {
+        //do something
+      }
+
 
 })
 
